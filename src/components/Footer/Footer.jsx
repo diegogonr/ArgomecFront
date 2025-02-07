@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="row">
           {/* Logo Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-            <div className="kf-logo element-anim-1 scroll-animate" data-animate="active">
+            <div className="kf-logo">
               <a href="index.html">
                 <img src={logo} alt="Logo" />
               </a>
@@ -24,7 +24,7 @@ const Footer = () => {
 
           {/* Working Hours Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-            <div className="kf-f-hours element-anim-1 scroll-animate" data-animate="active">
+            <div className="kf-f-hours">
               <h5>Horario de Atención</h5>
               <ul>
                 <li>
@@ -36,7 +36,7 @@ const Footer = () => {
 
           {/* Contact Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-            <div className="kf-f-contact element-anim-1 scroll-animate" data-animate="active">
+            <div className="kf-f-contact">
               <h5>Contact Us</h5>
               <ul>
                 <li>
@@ -60,7 +60,7 @@ const Footer = () => {
 
           {/* Gallery Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
-            <div className="kf-f-gallery element-anim-1 scroll-animate" data-animate="active">
+            <div className="kf-f-gallery">
               <h5>Gallery</h5>
               <ul>
                 <li>
@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Copyright Section */}
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
-            <div className="kf-copyright element-anim-1 scroll-animate" data-animate="active">
+            <div className="kf-copyright">
               Copyright © 2025 Argomec. All Rights Reserved.
             </div>
           </div>
