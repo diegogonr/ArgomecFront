@@ -1,10 +1,10 @@
 import logo from "../../assets/images/argomec/logo/logo.png"; 
-import reparacion1 from '../../assets/images/argomec/REPARACIONES/1.jpg'
-import reparacion2 from '../../assets/images/argomec/REPARACIONES/2.jpg'
-import reparacion3 from '../../assets/images/argomec/REPARACIONES/3.jpg'
-import reparacion4 from '../../assets/images/argomec/REPARACIONES/4.jpg'
-import reparacion5 from '../../assets/images/argomec/REPARACIONES/5.jpg'
-import reparacion6 from '../../assets/images/argomec/REPARACIONES/6.jpg'
+import reparacion1 from '../../assets/images/argomec/reparaciones/1.jpg'
+import reparacion2 from '../../assets/images/argomec/reparaciones/2.jpg'
+import reparacion3 from '../../assets/images/argomec/reparaciones/3.jpg'
+import reparacion4 from '../../assets/images/argomec/reparaciones/4.jpg'
+import reparacion5 from '../../assets/images/argomec/reparaciones/5.jpg'
+import reparacion6 from '../../assets/images/argomec/reparaciones/6.jpg'
 import "lightbox2/dist/css/lightbox.css";
 import "lightbox2";
 import { IconMapPin } from '@tabler/icons-react';

@@ -1,10 +1,10 @@
-import service1 from "../../../assets/images/argomec/SERVICIOS/MANTENIMIENTO PREVENTIVO.jpg";
-import service2 from "../../../assets/images/argomec/SERVICIOS/MANTENIMIENTO CORRECTIVO.jpg";
-import service3 from "../../../assets/images/argomec/SERVICIOS/MANTENIMIENTO INTEGRAL.jpg";
+import service1 from "../../../assets/images/argomec/servicios/MANTENIMIENTO PREVENTIVO 2.jpg";
+import service2 from "../../../assets/images/argomec/servicios/MANTENIMIENTO CORRECTIVO.jpg";
+import service3 from "../../../assets/images/argomec/servicios/MANTENIMIENTO INTEGRAL.jpg";
 
-import icon1 from "../../../assets/images/argomec/ICONS/mantenimiento1.png";
-import icon2 from "../../../assets/images/argomec/ICONS/mantenimiento2.png";
-import icon3 from "../../../assets/images/argomec/ICONS/mantenimiento3.png";
+import icon1 from "../../../assets/images/argomec/icons/mantenimientoCorrectivo.png";
+import icon2 from "../../../assets/images/argomec/icons/mantenimientoPreventivo.png";
+import icon3 from "../../../assets/images/argomec/icons/mantenimientoIntegral.png";
 
 const ServicesSection = () => {
   return (

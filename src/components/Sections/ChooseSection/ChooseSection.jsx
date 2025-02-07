@@ -1,4 +1,4 @@
-import chooseImg from "../../../assets/images/argomec/REPARACIONES/reparacion1.jpg";
+import chooseImg from "../../../assets/images/argomec/reparaciones/reparacion1.jpg";
 import parallaxIcon1 from "../../../assets/images/images/parallax_icon1.png";
 import parallaxIcon2 from "../../../assets/images/images/parallax_icon2.png";
 import parallaxIcon3 from "../../../assets/images/images/parallax_icon3.png";
