@@ -1762,7 +1762,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 * Section
 **/
 .section {
-  padding: 130px 0;
+  padding: 50px 0;
   position: relative;
   z-index: 2;
 }
@@ -1794,7 +1794,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 }
 
 .kf-title {
-  margin: 0 0 70px 0;
+  margin: 0 0 0px 0;
   font-size: 42px;
   font-family: "Oswald";
   color: #fff;
@@ -5484,7 +5484,7 @@ small {
 }
 
 .kf-testimonials-carousel .swiper-slide {
-  opacity: 0;
+  opacity: 1;
   -o-transition: opacity 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   transition: opacity 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: opacity 0.7s cubic-bezier(0.3, 0, 0.3, 1);
@@ -5604,3 +5604,11 @@ small {
   margin: 0 0.5em 0 0;
 }
 
+.iconSecundary {
+  color: white;
+  width: 80px;
+}
+
+.card-testimonial{
+  margin-top: 4rem !important;
+}

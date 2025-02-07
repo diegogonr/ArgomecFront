@@ -11,10 +11,10 @@ const CTASection = () => {
           {/* Left Section: Titles */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
             <div className="kf-titles">
-              <div className="kf-subtitle element-anim-1 scroll-animate" data-animate="active">
+              <div className="kf-subtitle" data-animate="active">
                 ¿Tu máquina de café necesita atención?
               </div>
-              <h3 className="kf-title element-anim-1 scroll-animate" data-animate="active">
+              <h3 className="kf-title" data-animate="active">
                 Agenda una revisión técnica hoy mismo
               </h3>
             </div>
@@ -24,7 +24,7 @@ const CTASection = () => {
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
             <a
               href="contacto.html" // Cambia el enlace según tu estructura
-              className="kf-btn element-anim-1 scroll-animate"
+              className="kf-btn"
               data-animate="active"
             >
               <span>Solicitar Servicio</span>

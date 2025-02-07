@@ -1,4 +1,5 @@
-import logo from "../../../assets/images/argomec/logo.png"; 
+import { Link } from "react-router-dom";
+import logo from "../../../assets/images/argomec/logo.png";
 
 const Navbar = () => {
   return (
@@ -7,9 +8,9 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <div className="kf-logo">
-            <a href="index.html">
+            <Link to="/">
               <img src={logo} alt="Logo" />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -18,18 +19,16 @@ const Navbar = () => {
           <div className="kf-main-menu">
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="about.html">Nosotros</a>
+                <Link to="/about">Nosotros</Link>
               </li>
-
               <li>
-                <a href="services.html">Servicios</a>
+                <Link to="/services">Servicios</Link>
               </li>
-
               <li>
-                <a href="contacts.html">Contacto</a>
+                <Link to="/contacts">Contacto</Link>
               </li>
             </ul>
           </div>
@@ -40,9 +39,9 @@ const Navbar = () => {
           <a href="#" className="kf-menu-btn">
             <span></span>
           </a>
-          <a href="contacts.html" className="kf-btn h-btn">
+          <Link to="/contacts" className="kf-btn h-btn">
             <span>Contacto</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
