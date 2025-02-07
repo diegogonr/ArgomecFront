@@ -9,7 +9,6 @@ const AboutUsHeader = () => {
 
   return (
     <section className="section kf-started-inner">
-      {/* Fondo con efecto parallax */}
       <div
         className="kf-parallax-bg js-parallax"
         style={{ backgroundImage: `url(${historyBg})` }}
