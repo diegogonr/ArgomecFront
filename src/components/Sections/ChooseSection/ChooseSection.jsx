@@ -1,9 +1,9 @@
 import chooseImg from "../../../assets/images/argomec/REPARACIONES/reparacion1.jpg";
-import parallaxIcon1 from "../../../assets/images/parallax_icon1.png";
-import parallaxIcon2 from "../../../assets/images/parallax_icon2.png";
-import parallaxIcon3 from "../../../assets/images/parallax_icon3.png";
-import chooseIcon1 from "../../../assets/images/choose_icon1.png";
-import chooseIcon2 from "../../../assets/images/choose_icon2.png";
+import parallaxIcon1 from "../../../assets/images/images/parallax_icon1.png";
+import parallaxIcon2 from "../../../assets/images/images/parallax_icon2.png";
+import parallaxIcon3 from "../../../assets/images/images/parallax_icon3.png";
+import chooseIcon1 from "../../../assets/images/images/choose_icon1.png";
+import chooseIcon2 from "../../../assets/images/images/choose_icon2.png";
 
 // Datos de la lista "Why Choose Us"
 const chooseList = [

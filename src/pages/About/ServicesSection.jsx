@@ -1,7 +1,7 @@
-import serviceIcon1 from "../../assets/images/service_icon1.png"; // Asegúrate de que la ruta es correcta
-import serviceIcon2 from "../../assets/images/service_icon2.png"; // Asegúrate de que la ruta es correcta
-import serviceIcon3 from "../../assets/images/service_icon3.png"; // Asegúrate de que la ruta es correcta
-import serviceIcon4 from "../../assets/images/service_icon4.png"; // Asegúrate de que la ruta es correcta
+import serviceIcon1 from "../../assets/images/images/service_icon1.png"; // Asegúrate de que la ruta es correcta
+import serviceIcon2 from "../../assets/images/images/service_icon2.png"; // Asegúrate de que la ruta es correcta
+import serviceIcon3 from "../../assets/images/images/service_icon3.png"; // Asegúrate de que la ruta es correcta
+import serviceIcon4 from "../../assets/images/images/service_icon4.png"; // Asegúrate de que la ruta es correcta
 
 const ServicesSection = () => {
   return (

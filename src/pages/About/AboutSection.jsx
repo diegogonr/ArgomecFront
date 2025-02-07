@@ -1,6 +1,6 @@
-import chooseIcon1 from "../../assets/images/choose_icon1.png"; // Asegúrate de tener la ruta correcta
-import chooseIcon2 from "../../assets/images/choose_icon2.png"; // Asegúrate de tener la ruta correcta
-import aboutImg2 from "../../assets/images/about_img2.jpg"; // Asegúrate de tener la ruta correcta
+import chooseIcon1 from "../../assets/images/images/choose_icon1.png"; // Asegúrate de tener la ruta correcta
+import chooseIcon2 from "../../assets/images/images/choose_icon2.png"; // Asegúrate de tener la ruta correcta
+import aboutImg2 from "../../assets/images/images/about_img2.jpg"; // Asegúrate de tener la ruta correcta
 
 const AboutSection = () => {
   return (
