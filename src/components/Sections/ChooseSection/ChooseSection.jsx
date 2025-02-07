@@ -26,7 +26,7 @@ const chooseList = [
 // Componente para cada elemento de la lista
 const ChooseItem = ({ icon, name, subname }) => {
   return (
-    <li className="element-anim-1 scroll-animate" data-animate="active">
+    <li className="scroll-animate">
       <div className="icon">
         <img src={icon} alt={name} />
       </div>

@@ -1,11 +1,16 @@
-
+import { IconBrandFacebookFilled } from '@tabler/icons-react';
+import { IconBrandInstagram } from "@tabler/icons-react";
+import { IconBrandWhatsapp } from "@tabler/icons-react";
+import { IconMapPin } from '@tabler/icons-react';
+import { IconClockHour4 } from '@tabler/icons-react';
 const Topline = () => {
   return (
     <div className="kf-topline">
       <div className="row">
         <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
           <div className="kf-h-group">
-            <i className="far fa-clock iconMarginRigth"></i>
+            {/* <i className="far fa-clock iconMarginRigth"></i> */}
+            <IconClockHour4 stroke={2} />
             <em>Horario de Atención :</em> 08:00 am - 08:00 pm
           </div>
         </div>
@@ -16,35 +21,28 @@ const Topline = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-facebook-f"></i>
+              <IconBrandFacebookFilled stroke={2} />
             </a>
-            {/* <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-twitter"></i>
-            </a> */}
             <a
               href="https://www.instagram.com/argomec.pe/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-instagram"></i>
+              <IconBrandInstagram stroke={2} />
             </a>
             <a
               href="https://youtube.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-youtube"></i>
+              <IconBrandWhatsapp stroke={2} />
             </a>
           </div>
         </div>
         <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 align-right">
           <div className="kf-h-group">
-            <i className="fas fa-map-marker-alt iconMarginRigth"></i>
-            <em>Dirección :</em>  Jr. León Velarde 630 - Lince
+            <IconMapPin className="fas iconMarginRigth" stroke={2} />
+            <em>Dirección :</em> Jr. León Velarde 630 - Lince
           </div>
         </div>
       </div>

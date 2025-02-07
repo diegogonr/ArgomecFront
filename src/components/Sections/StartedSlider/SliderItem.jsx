@@ -1,4 +1,5 @@
-
+// import { IconChevronCompactRight } from '@tabler/icons-react';
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 const SliderItem = ({ background, subtitle, title,title2, links }) => {
   return (
     <div className="swiper-slide">
@@ -23,7 +24,8 @@ const SliderItem = ({ background, subtitle, title,title2, links }) => {
                 >
                   
                   <span>{link.text}</span>
-                  <i className="fas fa-chevron-right"></i>
+                  {/* <i className="fas fa-chevron-right"></i> */}
+                  <ChevronRightIcon />
                 </a>
               ))}
             </div>

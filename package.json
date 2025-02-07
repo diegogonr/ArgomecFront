@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.3",
+    "@tabler/icons-react": "^3.30.0",
     "aos": "^2.3.4",
     "jquery": "^3.7.1",
     "lightbox2": "^2.11.5",

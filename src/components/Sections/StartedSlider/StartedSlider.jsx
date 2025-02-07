@@ -69,6 +69,9 @@ const StartedSlider = () => {
             ))}
           </Swiper>
         </div>
+					<div className="swiper-button-prev"></div>
+					<div className="swiper-button-next"></div>
+
       </div>
     </section>
   );

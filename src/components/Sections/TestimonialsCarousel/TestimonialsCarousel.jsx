@@ -7,6 +7,7 @@ import Splitting from "splitting";
 import rev1 from "../../../assets/images/argomec/ABOUT/person.png";
 import rev2 from "../../../assets/images/argomec/ABOUT/person.png";
 import rev3 from "../../../assets/images/argomec/ABOUT/person.png";
+import { IconStarFilled } from '@tabler/icons-react';
 
 // Lista de testimonios personalizados para tu empresa
 const testimonials = [
@@ -93,7 +94,8 @@ const TestimonialsCarousel = () => {
                   <div className="desc">
                     <div className="stars">
                       {[...Array(5)].map((_, i) => (
-                        <i key={i} className="fas fa-star"></i>
+                        // <i key={i} className="fas fa-star"></i>
+                        <IconStarFilled key={i} stroke={2} />
                       ))}
                     </div>
                     <div className="text">{testimonial.feedback}</div>
