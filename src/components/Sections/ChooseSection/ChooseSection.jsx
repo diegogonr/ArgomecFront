@@ -4,6 +4,7 @@ import parallaxIcon2 from "../../../assets/images/images/parallax_icon2.png";
 import parallaxIcon3 from "../../../assets/images/images/parallax_icon3.png";
 import chooseIcon1 from "../../../assets/images/images/choose_icon1.png";
 import chooseIcon2 from "../../../assets/images/images/choose_icon2.png";
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 // Datos de la lista "Why Choose Us"
 const chooseList = [
@@ -125,7 +126,10 @@ const ChooseSection = () => {
               data-animate="active"
             >
               <span>Descubre más</span>
-              <i className="fas fa-chevron-right"></i>
+              <ChevronRightIcon />
+
+            {/* <i className="fas fa-chevron-right"></i> */}
+
             </a>
           </div>
         </div>

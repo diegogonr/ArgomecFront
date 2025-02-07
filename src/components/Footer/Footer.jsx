@@ -7,7 +7,9 @@ import reparacion5 from '../../assets/images/argomec/REPARACIONES/5.jpg'
 import reparacion6 from '../../assets/images/argomec/REPARACIONES/6.jpg'
 import "lightbox2/dist/css/lightbox.css";
 import "lightbox2";
-
+import { IconMapPin } from '@tabler/icons-react';
+import { IconMail } from '@tabler/icons-react';
+import { IconPhone } from '@tabler/icons-react';
 const Footer = () => {
   return (
     <div className="kf-footer">
@@ -40,17 +42,20 @@ const Footer = () => {
               <h5>Contact Us</h5>
               <ul>
                 <li>
-                  <i className="las la-map-marker"></i>
+                  {/* <i className="las la-map-marker"></i> */}
+                  <IconMapPin className="las" stroke={2} />
                   <em>Dirección :</em>
                   Jr. León Velarde 630 - Lince
                 </li>
                 <li>
-                  <i className="las la-envelope-open-text"></i>
+                  {/* <i className="las la-envelope-open-text"></i> */}
+                  <IconMail className="las la-envelope-open-text" stroke={2} />
                   <em>E-mail:</em>
                   argomecservice@gmail.com
                 </li>
                 <li>
-                  <i className="las la-phone"></i>
+                  {/* <i className="las la-phone"></i> */}
+                  <IconPhone  className="las la-phone" stroke={2} />
                   <em>Número:</em>
                   939320606
                 </li>
