@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/argomec/logo.png";
+import logo from "../../../assets/images/argomec/LOGO/logo.png";
 
 const Navbar = () => {
   return (
