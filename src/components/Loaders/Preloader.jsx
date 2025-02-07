@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "../../assets/images/argomec/LOGO/logo.png"; 
+import logo from "../../assets/images/argomec/logo/logo.png"; 
 
 
 const Preloader = () => {

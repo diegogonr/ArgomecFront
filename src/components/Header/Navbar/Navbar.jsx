@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { Link } from "react-router-dom";
-import logo from "../../../assets/images/argomec/LOGO/logo.png";
+import logo from "../../../assets/images/argomec/logo/logo.png";
 import MobileNavbar from "./MobileNavbar";
 import { IconMenuDeep } from "@tabler/icons-react";
 import { IconX } from "@tabler/icons-react";

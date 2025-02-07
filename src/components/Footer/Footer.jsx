@@ -1,4 +1,4 @@
-import logo from "../../assets/images/argomec/LOGO/logo.png"; 
+import logo from "../../assets/images/argomec/logo/logo.png"; 
 import reparacion1 from '../../assets/images/argomec/REPARACIONES/1.jpg'
 import reparacion2 from '../../assets/images/argomec/REPARACIONES/2.jpg'
 import reparacion3 from '../../assets/images/argomec/REPARACIONES/3.jpg'
