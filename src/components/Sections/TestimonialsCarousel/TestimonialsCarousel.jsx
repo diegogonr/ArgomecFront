@@ -4,9 +4,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Splitting from "splitting";
 
 // Importación de imágenes
-import rev1 from "../../../assets/images/argomec/ABOUT/person.png";
-import rev2 from "../../../assets/images/argomec/ABOUT/person.png";
-import rev3 from "../../../assets/images/argomec/ABOUT/person.png";
+import rev1 from "../../../assets/images/argomec/cafe/person.png";
+import rev2 from "../../../assets/images/argomec/cafe/person.png";
+import rev3 from "../../../assets/images/argomec/cafe/person.png";
 import { IconStarFilled } from '@tabler/icons-react';
 
 // Lista de testimonios personalizados para tu empresa

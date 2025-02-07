@@ -39,19 +39,23 @@ const Footer = () => {
           {/* Contact Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             <div className="kf-f-contact">
-              <h5>Contact Us</h5>
+              <h5>Contacto</h5>
               <ul>
                 <li>
                   {/* <i className="las la-map-marker"></i> */}
                   <IconMapPin className="las" stroke={2} />
+                  <div>
                   <em>Dirección :</em>
                   Jr. León Velarde 630 - Lince
+                  </div>
                 </li>
                 <li>
                   {/* <i className="las la-envelope-open-text"></i> */}
                   <IconMail className="las la-envelope-open-text" stroke={2} />
+                  <div>
                   <em>E-mail:</em>
                   argomecservice@gmail.com
+                  </div>
                 </li>
                 <li>
                   {/* <i className="las la-phone"></i> */}
@@ -66,7 +70,7 @@ const Footer = () => {
           {/* Gallery Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             <div className="kf-f-gallery">
-              <h5>Gallery</h5>
+              <h5>Galería</h5>
               <ul>
                 <li>
                   <a href={reparacion1} data-lightbox="gallery" className="kf-image-hover has-popup-image">

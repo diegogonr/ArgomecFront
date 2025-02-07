@@ -1,5 +1,7 @@
 
-import portada4 from '../../../assets/images/argomec/PORTADA/portada4.jpg'
+import portada4 from '../../../assets/images/argomec/reparaciones/portada4.jpg'
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
+
 const CTASection = () => {
   return (
     <section
@@ -28,7 +30,9 @@ const CTASection = () => {
               data-animate="active"
             >
               <span>Solicitar Servicio</span>
-              <i className="fas fa-chevron-right"></i>
+              <ChevronRightIcon />
+
+              {/* <i className="fas fa-chevron-right"></i> */}
             </a>
           </div>
         </div>

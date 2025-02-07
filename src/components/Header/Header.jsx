@@ -1,3 +1,4 @@
+// import MobileNavbar from "./Navbar/MobileNavbar";
 import Navbar from "./Navbar/Navbar";
 import Topline from "./Topline/Topline";
 
@@ -11,7 +12,7 @@ const Header = () => {
             <Navbar></Navbar>
 
 			{/* <!-- mobile navbar --> */}
-            {/* <Topline></Topline> */}
+            {/* <MobileNavbar></MobileNavbar> */}
         </header>
     );
 };

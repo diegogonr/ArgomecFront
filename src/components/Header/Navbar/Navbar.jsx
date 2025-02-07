@@ -1,7 +1,13 @@
+import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import logo from "../../../assets/images/argomec/LOGO/logo.png";
-
+import MobileNavbar from "./MobileNavbar";
+import { IconMenuDeep } from "@tabler/icons-react";
+import { IconX } from "@tabler/icons-react";
 const Navbar = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="kf-navbar">
       <div className="row">
@@ -36,14 +42,26 @@ const Navbar = () => {
 
         {/* Menu Button Section */}
         <div className="col-xs-12 col-sm-6 col-md-3 col-lg-3 align-right">
-          <a href="#" className="kf-menu-btn">
+          <button 
+            className="kf-menu-btn button-navbarMobile"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? (
+              <IconX stroke={2} />
+            ) : (
+              <IconMenuDeep stroke={2} />
+            )}
             <span></span>
-          </a>
+          </button>
+
           <Link to="/contacts" className="kf-btn h-btn">
             <span>Contacto</span>
           </Link>
         </div>
       </div>
+      {mobileMenuOpen && (
+        <MobileNavbar setMobileMenuOpen={setMobileMenuOpen}></MobileNavbar>
+      )}
     </div>
   );
 };

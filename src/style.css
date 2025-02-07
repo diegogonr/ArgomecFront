@@ -1396,7 +1396,7 @@ button.mfp-close:before {
   top: 0;
   width: 100%;
   height: 2px;
-  background: #FFF;
+  /* background: #FFF; */
   -o-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -1436,13 +1436,13 @@ button.mfp-close:before {
   left: 0;
   width: 100%;
   height: 100vh;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  z-index: -1;
-  -o-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
+  opacity: 1;
+  /* visibility: hidden; */
+  /* pointer-events: none; */
+  z-index: -1; 
+  /* -o-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
-  -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
+  -webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);  */
 }
 
 .kf-navbar-mobile:before {
@@ -1453,16 +1453,16 @@ button.mfp-close:before {
   width: 140vw;
   height: 120vh;
   background: #090c0f;
-  -webkit-animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
-  animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
+  /* -webkit-animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards;
+  animation: nav-mobile-close 0.75s cubic-bezier(0.3, 0, 0.3, 1) forwards; */
 }
 
 .kf-navbar-mobile .kf-main-menu {
   position: relative;
   z-index: 2;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
+  opacity: 1;
+  /* visibility: hidden; */
+  /* pointer-events: none; */
   display: block;
   -o-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
   transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -1532,8 +1532,8 @@ button.mfp-close:before {
   background: none;
   position: relative;
   z-index: 2;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  /* visibility: hidden; */
   pointer-events: none;
   display: block;
   -o-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -1686,6 +1686,7 @@ button.mfp-close:before {
   margin-bottom: 10px;
   padding-left: 50px;
   color: #fff;
+  display: flex
 }
 
 .kf-f-contact ul li:last-child {
@@ -5611,4 +5612,11 @@ small {
 
 .card-testimonial{
   margin-top: 4rem !important;
+}
+.colorPrincipal{
+  color: #b99272;
+}
+
+.button-navbarMobile{
+  background-color: transparent !important  
 }

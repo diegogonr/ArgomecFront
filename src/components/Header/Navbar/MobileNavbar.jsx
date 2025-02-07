@@ -1,79 +1,23 @@
-import React from "react";
+import { Link } from "react-router-dom";
+import { IconMapPin, IconClockHour4, IconBrandFacebookFilled, IconBrandInstagram, IconBrandWhatsapp } from "@tabler/icons-react";
 
-const MobileNavbar = () => {
+const MobileNavbar = ({ setMobileMenuOpen }) => {
   return (
     <div className="kf-navbar-mobile">
       {/* Mobile Menu */}
       <div className="kf-main-menu">
         <ul>
-          <li className="has-children">
-            <a href="index.html">Home</a>
-            <i className="las la-angle-down"></i>
-            <ul>
-              <li>
-                <a href="index.html">Coffee House</a>
-              </li>
-              <li>
-                <a href="index-2.html">Restaurant</a>
-              </li>
-            </ul>
-          </li>
           <li>
-            <a href="about.html">About</a>
+            <Link to="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
           </li>
           <li className="has-children">
-            <a href="menu-coffee.html">Menu</a>
-            <i className="las la-angle-down"></i>
-            <ul>
-              <li>
-                <a href="menu-coffee.html">Menu Coffee</a>
-              </li>
-              <li>
-                <a href="menu-restaurant.html">Menu Restaurant</a>
-              </li>
-            </ul>
+            <Link to="/about" onClick={() => setMobileMenuOpen(false)}>Nosotros</Link>
           </li>
           <li className="has-children">
-            <a href="#">Pages</a>
-            <i className="las la-angle-down"></i>
-            <ul>
-              <li>
-                <a href="services.html">Service</a>
-              </li>
-              <li>
-                <a href="reservation.html">Reservation</a>
-              </li>
-              <li>
-                <a href="history.html">History</a>
-              </li>
-              <li>
-                <a href="team.html">Our Chefs</a>
-              </li>
-              <li>
-                <a href="gallery.html">Gallery</a>
-              </li>
-              <li>
-                <a href="faq.html">FAQ</a>
-              </li>
-            </ul>
+            <Link to="/services" onClick={() => setMobileMenuOpen(false)}>Servicios</Link>
           </li>
           <li className="has-children">
-            <a href="#">Blog</a>
-            <i className="las la-angle-down"></i>
-            <ul>
-              <li>
-                <a href="blog-grid.html">Blog Grid</a>
-              </li>
-              <li>
-                <a href="blog.html">Blog Standard</a>
-              </li>
-              <li>
-                <a href="blog-single.html">Blog Single</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="contacts.html">Contacts</a>
+            <Link to="/contacts" onClick={() => setMobileMenuOpen(false)}>Contacto</Link>
           </li>
         </ul>
       </div>
@@ -83,26 +27,22 @@ const MobileNavbar = () => {
         <div className="row">
           {/* Book a Table Button */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a href="reservation.html" className="kf-btn h-btn">
-              <span>Book a table</span>
-              <i className="fas fa-chevron-right"></i>
-            </a>
+            <Link to="/contacts" className="kf-btn h-btn" onClick={() => setMobileMenuOpen(false)}>
+              <span>Contacto</span>
+            </Link>
           </div>
 
           {/* Social Links */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="kf-h-social">
-              <a href="facebook.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-facebook-f"></i>
+              <a href="https://www.facebook.com/profile.php?id=61559819350683" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+                <IconBrandFacebookFilled stroke={2} />
               </a>
-              <a href="twitter.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-twitter"></i>
+              <a href="https://www.instagram.com/argomec.pe/" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+                <IconBrandInstagram stroke={2} />
               </a>
-              <a href="instagram.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="youtube.com" target="_blank" rel="noreferrer">
-                <i className="fab fa-youtube"></i>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+                <IconBrandWhatsapp stroke={2} />
               </a>
             </div>
           </div>
@@ -110,16 +50,16 @@ const MobileNavbar = () => {
           {/* Opening Hours */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="kf-h-group">
-              <i className="far fa-clock"></i>
-              <em>Opening hours:</em> 08:00 am - 09:00 pm
+              <IconClockHour4 stroke={2} />
+              <em>Horario de Atención :</em> 08:00 am - 08:00 pm
             </div>
           </div>
 
           {/* Location */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="kf-h-group">
-              <i className="fas fa-map-marker-alt"></i>
-              <em>Location:</em> 55 Main Street, New York
+              <IconMapPin className="las" stroke={2} />
+              <em>Dirección:</em> Jr. León Velarde 630 - Lince
             </div>
           </div>
         </div>

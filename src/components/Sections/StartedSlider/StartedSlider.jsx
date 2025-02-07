@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import Splitting from "splitting";
 
 import SliderItem from "./SliderItem";
-import started_img_n5 from "../../../assets/images/argomec/PORTADA/portada1.jpg";
-import started_img_n6 from "../../../assets/images/argomec/PORTADA/portada2.jpg";
-import started_img_n3 from "../../../assets/images/argomec/PORTADA/portada3.jpg";
+import started_img_n5 from "../../../assets/images/argomec/reparaciones/portada1.jpg";
+import started_img_n6 from "../../../assets/images/argomec/reparaciones/portada2.jpg";
+import started_img_n3 from "../../../assets/images/argomec/reparaciones/portada3.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {Autoplay, Pagination, Navigation } from "swiper/modules";
 

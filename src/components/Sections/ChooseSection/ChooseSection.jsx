@@ -2,8 +2,8 @@ import chooseImg from "../../../assets/images/argomec/REPARACIONES/reparacion1.j
 import parallaxIcon1 from "../../../assets/images/images/parallax_icon1.png";
 import parallaxIcon2 from "../../../assets/images/images/parallax_icon2.png";
 import parallaxIcon3 from "../../../assets/images/images/parallax_icon3.png";
-import chooseIcon1 from "../../../assets/images/images/choose_icon1.png";
-import chooseIcon2 from "../../../assets/images/images/choose_icon2.png";
+import chooseIcon1 from "../../../assets/images/argomec/icons/trabajador.png";
+import chooseIcon2 from "../../../assets/images/argomec/icons/revision-de-documento.png";
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 // Datos de la lista "Why Choose Us"
@@ -18,7 +18,7 @@ const chooseList = [
   {
     id: 2,
     icon: chooseIcon2,
-    name: "Mantenimiento Preventivo",
+    name: "Mayor vida útil, mejor desempeño",
     subname:
       "Prolonga la vida útil de tu equipo con nuestras revisiones técnicas especializadas.",
   }

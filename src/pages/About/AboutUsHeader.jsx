@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import historyBg from "../../assets/images/argomec/PORTADA/portada1.jpg";
+import historyBg from "../../assets/images/argomec/reparaciones/portada1.jpg";
 import Splitting from "splitting";
 
 const AboutUsHeader = () => {
@@ -17,12 +17,8 @@ const AboutUsHeader = () => {
 
       <div className="container">
         {/* Título animado */}
-        <h1
-          className="kf-h-title"
-          data-splitting="chars"
-          data-animate="active"
-        >
-          About Us
+        <h1 className="kf-h-title" data-splitting="chars" data-animate="active">
+          Nosotros
         </h1>
       </div>
     </section>
