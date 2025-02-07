@@ -1,5 +1,5 @@
 
-import portada4 from '../../../assets/images/argomec/reparaciones/portada4.jpg'
+import portada4 from '../../../assets/images/argomec/reparaciones/portada1.jpg'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const CTASection = () => {
