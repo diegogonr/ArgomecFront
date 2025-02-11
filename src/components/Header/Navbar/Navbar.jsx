@@ -34,7 +34,7 @@ const Navbar = () => {
                 <Link to="/services">Servicios</Link>
               </li>
               <li>
-                <Link to="/contacts">Contacto</Link>
+                <Link to="/contact">Contacto</Link>
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <span></span>
           </button>
 
-          <Link to="/contacts" className="kf-btn h-btn">
+          <Link to="/contact" className="kf-btn h-btn">
             <span>Contacto</span>
           </Link>
         </div>

@@ -1,15 +1,15 @@
-import logo from "../../assets/images/argomec/logo/logo.png"; 
-import reparacion1 from '../../assets/images/argomec/reparaciones/1.jpg'
-import reparacion2 from '../../assets/images/argomec/reparaciones/2.jpg'
-import reparacion3 from '../../assets/images/argomec/reparaciones/3.jpg'
-import reparacion4 from '../../assets/images/argomec/reparaciones/4.jpg'
-import reparacion5 from '../../assets/images/argomec/reparaciones/5.jpg'
-import reparacion6 from '../../assets/images/argomec/reparaciones/6.jpg'
+import logo from "../../assets/images/argomec/logo/logo.png";
+import reparacion1 from "../../assets/images/argomec/reparaciones/1.jpg";
+import reparacion2 from "../../assets/images/argomec/reparaciones/2.jpg";
+import reparacion3 from "../../assets/images/argomec/reparaciones/3.jpg";
+import reparacion4 from "../../assets/images/argomec/reparaciones/4.jpg";
+import reparacion5 from "../../assets/images/argomec/reparaciones/5.jpg";
+import reparacion6 from "../../assets/images/argomec/reparaciones/6.jpg";
 import "lightbox2/dist/css/lightbox.css";
 import "lightbox2";
-import { IconMapPin } from '@tabler/icons-react';
-import { IconMail } from '@tabler/icons-react';
-import { IconPhone } from '@tabler/icons-react';
+import { IconMapPin } from "@tabler/icons-react";
+import { IconMail } from "@tabler/icons-react";
+import { IconPhone } from "@tabler/icons-react";
 const Footer = () => {
   return (
     <div className="kf-footer">
@@ -43,23 +43,29 @@ const Footer = () => {
               <ul>
                 <li>
                   {/* <i className="las la-map-marker"></i> */}
-                  <IconMapPin className="las" stroke={2} />
+                  <div style={{ marginRight: "0.5rem" }}>
+                    <IconMapPin stroke={2} size={"20px"} />
+                  </div>
                   <div>
-                  <em>Dirección :</em>
-                  Jr. León Velarde 630 - Lince
+                    <em>Dirección :</em>
+                    Jr. León Velarde 630 - Lince
                   </div>
                 </li>
                 <li>
                   {/* <i className="las la-envelope-open-text"></i> */}
-                  <IconMail className="las la-envelope-open-text" stroke={2} />
+                  <div style={{ marginRight: "0.5rem" }}>
+                    <IconMail stroke={2} size={"20px"} />
+                  </div>
                   <div>
-                  <em>E-mail:</em>
-                  argomecservice@gmail.com
+                    <em>E-mail:</em>
+                    argomecservice@gmail.com
                   </div>
                 </li>
                 <li>
                   {/* <i className="las la-phone"></i> */}
-                  <IconPhone  className="las la-phone" stroke={2} />
+                  <div style={{ marginRight: "0.5rem" }}>
+                    <IconPhone stroke={2} size={"20px"} />
+                  </div>
                   <em>Número:</em>
                   939320606
                 </li>
@@ -73,32 +79,56 @@ const Footer = () => {
               <h5>Galería</h5>
               <ul>
                 <li>
-                  <a href={reparacion1} data-lightbox="gallery" className="kf-image-hover has-popup-image">
+                  <a
+                    href={reparacion1}
+                    data-lightbox="gallery"
+                    className="kf-image-hover has-popup-image"
+                  >
                     <img src={reparacion1} alt="Gallery Image 1" />
                   </a>
                 </li>
                 <li>
-                  <a href={reparacion2} data-lightbox="gallery" className="kf-image-hover has-popup-image">
+                  <a
+                    href={reparacion2}
+                    data-lightbox="gallery"
+                    className="kf-image-hover has-popup-image"
+                  >
                     <img src={reparacion2} alt="Gallery Image 2" />
                   </a>
                 </li>
                 <li>
-                  <a href={reparacion3} data-lightbox="gallery" className="kf-image-hover has-popup-image">
+                  <a
+                    href={reparacion3}
+                    data-lightbox="gallery"
+                    className="kf-image-hover has-popup-image"
+                  >
                     <img src={reparacion3} alt="Gallery Image 3" />
                   </a>
                 </li>
                 <li>
-                  <a href={reparacion4} data-lightbox="gallery" className="kf-image-hover has-popup-image">
+                  <a
+                    href={reparacion4}
+                    data-lightbox="gallery"
+                    className="kf-image-hover has-popup-image"
+                  >
                     <img src={reparacion4} alt="Gallery Image 4" />
                   </a>
                 </li>
                 <li>
-                  <a href={reparacion5} data-lightbox="gallery" className="kf-image-hover has-popup-image">
+                  <a
+                    href={reparacion5}
+                    data-lightbox="gallery"
+                    className="kf-image-hover has-popup-image"
+                  >
                     <img src={reparacion5} alt="Gallery Image 5" />
                   </a>
                 </li>
                 <li>
-                  <a href={reparacion6} data-lightbox="gallery" className="kf-image-hover has-popup-image">
+                  <a
+                    href={reparacion6}
+                    data-lightbox="gallery"
+                    className="kf-image-hover has-popup-image"
+                  >
                     <img src={reparacion6} alt="Gallery Image 6" />
                   </a>
                 </li>

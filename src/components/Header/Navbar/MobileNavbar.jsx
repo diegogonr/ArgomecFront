@@ -17,7 +17,7 @@ const MobileNavbar = ({ setMobileMenuOpen }) => {
             <Link to="/services" onClick={() => setMobileMenuOpen(false)}>Servicios</Link>
           </li>
           <li className="has-children">
-            <Link to="/contacts" onClick={() => setMobileMenuOpen(false)}>Contacto</Link>
+            <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>Contacto</Link>
           </li>
         </ul>
       </div>
@@ -27,7 +27,7 @@ const MobileNavbar = ({ setMobileMenuOpen }) => {
         <div className="row">
           {/* Book a Table Button */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <Link to="/contacts" className="kf-btn h-btn" onClick={() => setMobileMenuOpen(false)}>
+            <Link to="/contact" className="kf-btn h-btn" onClick={() => setMobileMenuOpen(false)}>
               <span>Contacto</span>
             </Link>
           </div>

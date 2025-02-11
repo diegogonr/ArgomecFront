@@ -1,6 +1,6 @@
-import service1 from "../../../assets/images/argomec/servicios/MANTENIMIENTO PREVENTIVO 2.jpg";
-import service2 from "../../../assets/images/argomec/servicios/MANTENIMIENTO CORRECTIVO.jpg";
-import service3 from "../../../assets/images/argomec/servicios/MANTENIMIENTO INTEGRAL.jpg";
+import service1 from "../../../assets/images/argomec/servicios/Home_mantenimientoPreventivo.jpg";
+import service2 from "../../../assets/images/argomec/servicios/Home_mantenimientoCorrectivo.jpg";
+import service3 from "../../../assets/images/argomec/servicios/Home_mantenimientoIntegral.jpg";
 
 import icon1 from "../../../assets/images/argomec/icons/mantenimientoCorrectivo.png";
 import icon2 from "../../../assets/images/argomec/icons/mantenimientoPreventivo.png";

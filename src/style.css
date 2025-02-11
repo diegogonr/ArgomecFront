@@ -1249,6 +1249,7 @@ button.mfp-close:before {
   font-size: 14px;
   color: #ced2d5;
   text-transform: uppercase;
+  
 }
 
 .kf-h-group em, .kf-h-group i {
@@ -1684,7 +1685,7 @@ button.mfp-close:before {
 .kf-f-contact ul li {
   position: relative;
   margin-bottom: 10px;
-  padding-left: 50px;
+  padding-left: 30px;
   color: #fff;
   display: flex
 }
@@ -1950,7 +1951,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   width: 100%;
   height: 100%;
   border: none;
-  background: url(assets/images/images/nav.png) no-repeat;
+  background: url(assets/images/argomec/icons/cafe/nav.png) no-repeat;
   background-size: contain;
   -o-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
   transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
@@ -1958,7 +1959,7 @@ button.mfp-close:before, button.mfp-arrow:before {
 }
 
 .swiper-button-prev:after, .swiper-button-next:after {
-  background: url(assets/images/images/nav2.png) no-repeat;
+  background: url(assets/images/argomec/icons/cafe/nav2.png) no-repeat;
   background-size: contain;
   opacity: 0;
 }
@@ -4273,7 +4274,7 @@ button.mfp-close:before, button.mfp-arrow:before {
   margin-top: 30px;
   padding: 45px;
   position: relative;
-  min-height: 414px;
+  min-height: 314px;
   background: #090c0f;
 }
 
