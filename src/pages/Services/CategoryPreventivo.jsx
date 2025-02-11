@@ -2,6 +2,7 @@ import servicePreventivo1 from "../../assets/images/argomec/servicios/Services_m
 import servicePreventivo2 from "../../assets/images/argomec/servicios/Services_mantenimientoPreventivo2.jpg"
 import servicePreventivo3 from "../../assets/images/argomec/servicios/Services_mantenimientoPreventivo3.jpg"
 import servicePreventivo4 from "../../assets/images/argomec/servicios/Services_mantenimientoPreventivo4.jpg"
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 
 const categories = [
@@ -49,9 +50,9 @@ const CategoryPreventivo = () => {
                 Nuestros servicios de mantenimiento preventivo aseguran que tu máquina de café funcione sin problemas, prolongando su vida útil y garantizando la mejor calidad en cada taza.
               </p>
             </div>
-            <a href="servicios-mantenimiento.html" className="kf-btn scroll-animate" data-animate="active">
+            <a href="/contact" className="kf-btn scroll-animate" data-animate="active">
               <span>Descubre Nuestros Servicios</span>
-              <i className="fas fa-chevron-right"></i>
+              <ChevronRightIcon />
             </a>
           </div>
         </div>

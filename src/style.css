@@ -5621,3 +5621,7 @@ small {
 .button-navbarMobile{
   background-color: transparent !important  
 }
+
+.iconPrimary{
+  color: #b99272;
+}

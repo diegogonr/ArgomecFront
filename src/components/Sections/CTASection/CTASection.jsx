@@ -25,7 +25,7 @@ const CTASection = () => {
           {/* Right Section: Button */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4 align-self-center align-right">
             <a
-              href="contacto.html" // Cambia el enlace según tu estructura
+              href="/contact" // Cambia el enlace según tu estructura
               className="kf-btn"
               data-animate="active"
             >

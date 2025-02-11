@@ -1,3 +1,6 @@
+import { IconMap2 } from '@tabler/icons-react';
+import { IconMailSpark } from '@tabler/icons-react';
+import { IconPhoneRinging } from '@tabler/icons-react';
 const ContactInfo = () => {
     return (
       <section className="section kf-contacts-info">
@@ -7,7 +10,8 @@ const ContactInfo = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
               <div className="kf-contacts-item  scroll-animate" data-animate="active">
                 <div className="image">
-                  <i className="las la-map-marked-alt"></i>
+                  {/* <i className="las la-map-marked-alt"></i> */}
+                  <IconMap2 className= "iconPrimary" size={"50px"} stroke={2} />
                 </div>
                 <div className="desc">
                   <h5 className="name">Dirección</h5>
@@ -21,7 +25,8 @@ const ContactInfo = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
               <div className="kf-contacts-item  scroll-animate" data-animate="active">
                 <div className="image">
-                  <i className="las la-envelope-open-text"></i>
+                  {/* <i className="las la-envelope-open-text"></i> */}
+                  <IconMailSpark  className= "iconPrimary" size={"50px"} stroke={2} />
                 </div>
                 <div className="desc">
                   <h5 className="name">Email</h5>
@@ -35,7 +40,8 @@ const ContactInfo = () => {
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 align-center">
               <div className="kf-contacts-item  scroll-animate" data-animate="active">
                 <div className="image">
-                  <i className="las la-headset"></i>
+                  {/* <i className="las la-headset"></i> */}
+                  <IconPhoneRinging  className= "iconPrimary" size={"50px"} stroke={2} />
                 </div>
                 <div className="desc">
                   <h5 className="name">Número</h5>

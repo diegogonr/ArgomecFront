@@ -3,6 +3,7 @@ import serviceIntegral2 from "../../assets/images/argomec/servicios/Services_man
 import serviceIntegral3 from "../../assets/images/argomec/servicios/Services_mantenimientoIntegral3.jpg"
 import serviceIntegral4 from "../../assets/images/argomec/servicios/Services_mantenimientoIntegral4.jpg"
 
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 
 const categories = [
@@ -50,9 +51,9 @@ const CategoryIntegral = () => {
                 Nuestro mantenimiento integral garantiza el máximo rendimiento de tu máquina de café, combinando limpieza, reparación y optimización en un solo servicio.
               </p>
             </div>
-            <a className="kf-btn scroll-animate" data-animate="active">
+            <a href="/contact" className="kf-btn scroll-animate" data-animate="active">
               <span>Descubre Nuestros Servicios</span>
-              <i className="fas fa-chevron-right"></i>
+              <ChevronRightIcon />
             </a>
           </div>
         </div>

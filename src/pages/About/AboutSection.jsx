@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import chooseIcon1 from "../../assets/images/argomec/icons/soporte-tecnico.png"; 
 import chooseIcon2 from "../../assets/images/argomec/icons/apreton-de-manos.png"; 
 import aboutImg2 from "../../assets/images/argomec/reparaciones/reparacion-person-vertical.jpg"; 
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const AboutSection = () => {
 
@@ -68,10 +69,10 @@ const AboutSection = () => {
               </ul>
             </div>
 
-            <a href="servicios.html" className="kf-btn"  data-aos="fade-up">
+            <a href="/services" className="kf-btn"  data-aos="fade-up">
               <span>Conoce nuestros servicios</span>
-              <i className="fas fa-chevron-right"></i>
-            </a>
+              <ChevronRightIcon />
+              </a>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 offset-lg-1">
             <div className="kf-choose-image"  data-aos="fade-up">

@@ -5,6 +5,7 @@ import serviceCorrectivo2 from "../../assets/images/argomec/servicios/Services_m
 import serviceCorrectivo3 from "../../assets/images/argomec/servicios/Services_mantenimientoCorrectivo3.jpg"
 import serviceCorrectivo4 from "../../assets/images/argomec/servicios/Services_mantenimientoPreventivo4.jpg"
 
+import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 
 const categories = [
   { name: "Reparación de Circuitos", image: serviceCorrectivo1 },
@@ -36,9 +37,10 @@ const CategoryCorrectivo = () => {
                 Nuestro mantenimiento correctivo resuelve fallas y averías en tu máquina de café, asegurando su óptimo funcionamiento y evitando interrupciones en tu negocio.
               </p>
             </div>
-            <a href="servicios-correctivos.html" className="kf-btn scroll-animate" data-animate="active">
+            <a href="/contact" className="kf-btn scroll-animate" data-animate="active">
               <span>Descubre Nuestros Servicios</span>
-              <i className="fas fa-chevron-right"></i>
+              <ChevronRightIcon />
+
             </a>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
