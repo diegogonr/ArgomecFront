@@ -121,7 +121,7 @@ const ChooseSection = () => {
 
             {/* Botón */}
             <a
-              href="about.html"
+              href="/about"
               className="kf-btn"
               data-animate="active"
             >

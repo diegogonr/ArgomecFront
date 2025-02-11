@@ -17,7 +17,7 @@ const ServicesSection = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="menu-restaurant.html">
+                <a >
                   <img src={service1} alt="Restaurant Menu" />
                 </a>
               </div>
@@ -40,7 +40,7 @@ const ServicesSection = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="menu-coffee.html">
+                <a >
                   <img src={service2} alt="Coffee Menu" />
                 </a>
               </div>
@@ -63,7 +63,7 @@ const ServicesSection = () => {
               data-animate="active"
             >
               <div className="image kf-image-hover">
-                <a href="services.html">
+                <a>
                   <img src={service3} alt="Food Services" />
                 </a>
               </div>

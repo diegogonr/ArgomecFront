@@ -16,8 +16,8 @@ const StartedSlider = () => {
       title: "Servicio de Reparación",
       title2: "para tu Negocio",
       links: [
-        { text: "ver servicios", href: "solicitar-reparacion.html", dark: false },
-        { text: "contactar ahora", href: "contacto.html", dark: true },
+        { text: "ver servicios", href: "/services", dark: false },
+        { text: "contactar ahora", href: "/contact", dark: true },
       ],
     },
     {
@@ -26,8 +26,8 @@ const StartedSlider = () => {
       title: "Máquinas de Café",
       title2: "Siempre en Buen Estado",
       links: [
-        { text: "ver servicios", href: "nuestros-servicios.html", dark: false },
-        { text: "hablar con un experto", href: "contacto.html", dark: true },
+        { text: "ver servicios", href: "/services", dark: false },
+        { text: "hablar con un experto", href: "/contact", dark: true },
       ],
     },
     {
@@ -36,8 +36,8 @@ const StartedSlider = () => {
       title: "Reparación Rápida",
       title2: "y Garantizada",
       links: [
-        { text: "ver servicios", href: "servicios.html", dark: false },
-        { text: "reservar reparación", href: "solicitar-reparacion.html", dark: true },
+        { text: "ver servicios", href: "/services", dark: false },
+        { text: "reservar reparación", href: "/contact", dark: true },
       ],
     },
   ];

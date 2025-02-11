@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-3">
             <div className="kf-logo">
-              <a href="index.html">
+              <a href="/">
                 <img src={logo} alt="Logo" />
               </a>
             </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                     <IconPhone stroke={2} size={"20px"} />
                   </div>
                   <em>Número:</em>
-                  939320606
+                  923902381
                 </li>
               </ul>
             </div>

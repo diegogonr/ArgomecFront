@@ -31,7 +31,7 @@ const Topline = () => {
               <IconBrandInstagram stroke={2} />
             </a>
             <a
-              href="https://youtube.com"
+              href="https://w.app/argomec"
               target="_blank"
               rel="noopener noreferrer"
             >
