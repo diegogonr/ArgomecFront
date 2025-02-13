@@ -8,7 +8,7 @@ const WhatsappButton = () => {
   };
   return (
     <div onClick={handleClick} className="whatsapp-button">
-      <IconBrandWhatsapp size={"55px"} style={{ marginLeft: "5px" }} stroke={2} />
+      <IconBrandWhatsapp size={"40px"} style={{ marginLeft: "2px" }} stroke={2} />
     </div>
   );;
 };

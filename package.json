@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@material-ui/icons": "^4.11.3",
     "@tabler/icons-react": "^3.30.0",
     "aos": "^2.3.4",
