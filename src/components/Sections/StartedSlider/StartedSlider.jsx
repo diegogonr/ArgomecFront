@@ -54,7 +54,7 @@ const StartedSlider = () => {
             slidesPerView={1}
             spaceBetween={3}
             autoplay={{
-              delay: 2500,
+              delay: 3400,
               disableOnInteraction: false,
             }}
             loop={true}

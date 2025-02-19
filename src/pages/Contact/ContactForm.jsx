@@ -17,7 +17,7 @@ const ContactForm = () => {
     // Enviar correo a la empresa
     emailjs
       .sendForm(
-        "service_oo2htei", // Service ID
+        "service_gnbjp3n", // Service ID
         "template_w6f1jwh", // Template ID para Argomec
         formRef.current,
         "xGBUE3RcnmF6sK5zJ" // Public Key
@@ -29,7 +29,7 @@ const ContactForm = () => {
           // Ahora enviar correo de confirmación al usuario
           emailjs
             .send(
-              "service_oo2htei",
+              "service_gnbjp3n",
               "template_tn50n3s",
               {
                 user_name: formData.get("user_name"),
