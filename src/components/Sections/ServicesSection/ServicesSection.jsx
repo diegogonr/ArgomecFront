@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import service1 from "../../../assets/images/argomec/servicios/Home_mantenimientoPreventivo.jpg";
 import service2 from "../../../assets/images/argomec/servicios/Home_mantenimientoCorrectivo.jpg";
 import service3 from "../../../assets/images/argomec/servicios/Home_mantenimientoIntegral.jpg";
@@ -7,75 +8,62 @@ import icon2 from "../../../assets/images/argomec/icons/mantenimientoPreventivo.
 import icon3 from "../../../assets/images/argomec/icons/mantenimientoIntegral.png";
 
 const ServicesSection = () => {
+  const navigate = useNavigate();
+
+  const services = [
+    {
+      id: 1,
+      img: service1,
+      icon: icon1,
+      name: "Mantenimiento Preventivo",
+    },
+    {
+      id: 2,
+      img: service2,
+      icon: icon2,
+      name: "Mantenimiento Correctivo",
+    },
+    {
+      id: 3,
+      img: service3,
+      icon: icon3,
+      name: "Mantenimiento Integral",
+    },
+  ];
+
   return (
     <section className="section kf-services section-bg">
       <div className="container">
         <div className="kf-services-items row">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          {services.map((service) => (
             <div
-              className="kf-services-item"
-              data-animate="active"
+              key={service.id}
+              className="col-xs-12 col-sm-12 col-md-12 col-lg-4"
             >
-              <div className="image kf-image-hover">
-                <a >
-                  <img src={service1} alt="Restaurant Menu" />
-                </a>
-              </div>
-              <div className="desc">
-                <div className="icon">
-                  <img
-                    src={icon1}
-                    className="las la-utensils iconSecundary"
-                    alt="Mantenimiento Preventivo"
-                  />
+              <div
+                className="kf-services-item"
+                data-animate="active"
+                onClick={() => navigate("/contact")}
+                style={{ cursor: "pointer" }}
+              >
+                <div className="image kf-image-hover">
+                  <a>
+                    <img src={service.img} alt={service.name} />
+                  </a>
                 </div>
-                <h5 className="name">Mantenimiento Preventivo</h5>
+                <div className="desc">
+                  <div className="icon">
+                    <img
+                      src={service.icon}
+                      className="las la-utensils iconSecundary"
+                      alt={service.name}
+                    />
+                  </div>
+                  <h5 className="name">{service.name}</h5>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-            <div
-              className="kf-services-item"
-              data-animate="active"
-            >
-              <div className="image kf-image-hover">
-                <a >
-                  <img src={service2} alt="Coffee Menu" />
-                </a>
-              </div>
-              <div className="desc">
-                <div className="icon">
-                  <img
-                    src={icon2}
-                    className="las la-utensils iconSecundary"
-                    alt="Mantenimiento Correctivo"
-                  />
-                </div>
-                <h5 className="name">Mantenimiento Correctivo</h5>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-            <div
-              className="kf-services-item"
-              data-animate="active"
-            >
-              <div className="image kf-image-hover">
-                <a>
-                  <img src={service3} alt="Food Services" />
-                </a>
-              </div>
-              <div className="desc">
-                <div className="icon">
-                <img src={icon3} className="las la-utensils iconSecundary" alt="Mantenimiento Integral" />
-
-                </div>
-                <h5 className="name">Mantenimiento Integral</h5>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

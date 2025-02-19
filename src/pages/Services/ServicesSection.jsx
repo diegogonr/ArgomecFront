@@ -5,8 +5,11 @@ import serviceIntegral from "../../assets/images/argomec/servicios/Services_mant
 import icon1 from "../../assets/images/argomec/icons/mantenimientoCorrectivo.png";
 import icon2 from "../../assets/images/argomec/icons/mantenimientoPreventivo.png";
 import icon3 from "../../assets/images/argomec/icons/mantenimientoIntegral.png";
+import { useNavigate } from "react-router-dom";
 
 const ServicesSection = () => {
+  const navigate = useNavigate();
+
   const services = [
     {
       id: 1,
@@ -32,10 +35,7 @@ const ServicesSection = () => {
     <section className="section kf-services">
       <div className="container">
         <div className="kf-titles align-center">
-          {/* <div className="kf-subtitle  scroll-animate" data-animate="active">
-              Servicios Brindados
-            </div> */}
-          <h3 className="kf-title  scroll-animate" data-animate="active">
+          <h3 className="kf-title scroll-animate" data-animate="active">
             Servicios Brindados
           </h3>
         </div>
@@ -46,8 +46,10 @@ const ServicesSection = () => {
               className="col-xs-12 col-sm-12 col-md-12 col-lg-4"
             >
               <div
-                className="kf-services-item  scroll-animate"
+                className="kf-services-item scroll-animate"
                 data-animate="active"
+                onClick={() => navigate("/contact")}
+                style={{ cursor: "pointer" }}
               >
                 <div className="image kf-image-hover">
                   <img src={service.img} alt={service.name} />
@@ -55,11 +57,11 @@ const ServicesSection = () => {
                 <div className="desc">
                   <div className="icon">
                     <img
-                      src={icon1}
+                      src={service.icon}
                       className="las la-utensils iconSecundary"
-                      alt="Mantenimiento Preventivo"
+                      alt={service.name}
                     />
-                  </div>{" "}
+                  </div>
                   <h5 className="name">{service.name}</h5>
                 </div>
               </div>

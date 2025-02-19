@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
-import { IconMapPin, IconClockHour4, IconBrandFacebookFilled, IconBrandInstagram, IconBrandWhatsapp } from "@tabler/icons-react";
+import {
+  IconMapPin,
+  IconClockHour4,
+  IconBrandFacebookFilled,
+  IconBrandInstagram,
+  IconBrandWhatsapp,
+} from "@tabler/icons-react";
 
 const MobileNavbar = ({ setMobileMenuOpen }) => {
   return (
@@ -8,16 +14,24 @@ const MobileNavbar = ({ setMobileMenuOpen }) => {
       <div className="kf-main-menu">
         <ul>
           <li>
-            <Link to="/" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+            <Link to="/" onClick={() => setMobileMenuOpen(false)}>
+              Home
+            </Link>
           </li>
           <li className="has-children">
-            <Link to="/about" onClick={() => setMobileMenuOpen(false)}>Nosotros</Link>
+            <Link to="/about" onClick={() => setMobileMenuOpen(false)}>
+              Nosotros
+            </Link>
           </li>
           <li className="has-children">
-            <Link to="/services" onClick={() => setMobileMenuOpen(false)}>Servicios</Link>
+            <Link to="/services" onClick={() => setMobileMenuOpen(false)}>
+              Servicios
+            </Link>
           </li>
           <li className="has-children">
-            <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>Contacto</Link>
+            <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
+              Contacto
+            </Link>
           </li>
         </ul>
       </div>
@@ -27,7 +41,11 @@ const MobileNavbar = ({ setMobileMenuOpen }) => {
         <div className="row">
           {/* Book a Table Button */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <Link to="/contact" className="kf-btn h-btn" onClick={() => setMobileMenuOpen(false)}>
+            <Link
+              to="/contact"
+              className="kf-btn h-btn"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               <span>Contacto</span>
             </Link>
           </div>
@@ -35,13 +53,28 @@ const MobileNavbar = ({ setMobileMenuOpen }) => {
           {/* Social Links */}
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="kf-h-social">
-              <a href="https://www.facebook.com/profile.php?id=61559819350683" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+              <a
+                href="https://www.facebook.com/profile.php?id=61559819350683"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 <IconBrandFacebookFilled stroke={2} />
               </a>
-              <a href="https://www.instagram.com/argomec.pe/" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+              <a
+                href="https://www.instagram.com/argomec.pe/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 <IconBrandInstagram stroke={2} />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
+              <a
+                href="https://wa.me/923902381?text=Hola%20deseo%20más%20información%20sobre%20sus%20servicios"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileMenuOpen(false)}
+              >
                 <IconBrandWhatsapp stroke={2} />
               </a>
             </div>
