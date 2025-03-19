@@ -4,55 +4,45 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Splitting from "splitting";
 
 // Importación de imágenes
-import rev1 from "../../../assets/images/argomec/cafe/person.png";
-import rev2 from "../../../assets/images/argomec/cafe/person.png";
-import rev3 from "../../../assets/images/argomec/cafe/person.png";
+import rev1 from "../../../assets/images/argomec/cafe/testimonials/El-Hornero-Premium.jpg";
+import rev2 from "../../../assets/images/argomec/cafe/testimonials/Marina de Guerra del Perú.png";
+import rev3 from "../../../assets/images/argomec/cafe/testimonials/Club social Miraflores.png";
+import rev4 from "../../../assets/images/argomec/cafe/testimonials/La Ruta del Cacao.jpg";
+
 import { IconStarFilled } from '@tabler/icons-react';
 
 // Lista de testimonios personalizados para tu empresa
 const testimonials = [
   {
     image: rev1,
-    name: "Carlos R.",
-    role: "Dueño de Café Aroma",
+    name: "El Hornero Premium",
+    role: "",
     feedback:
-      "Increíble servicio. Mi máquina de espresso llevaba semanas fallando, y en menos de un día la dejaron como nueva. Ahora mis clientes disfrutan de un café perfecto nuevamente.",
+      "El restaurante El Hornero agradece a Argomec por su excelente servicio de mantenimiento, asegurando el óptimo funcionamiento de nuestras máquinas de café y equipos esenciales para brindar una experiencia de calidad a nuestros clientes.",
   },
   {
     image: rev2,
-    name: "María G.",
-    role: "Administradora de CoffeeHouse",
+    name: "Marina de Guerra del Perú",
+
+    role: "",
     feedback:
-      "Pensé que tendría que comprar una nueva máquina, pero gracias a su equipo, quedó funcionando como el primer día. ¡Ahorro y calidad en un solo servicio!",
+      "La Marina de Guerra del Perú reconoce a Argomec por su destacado trabajo en el mantenimiento de las máquinas de café a bordo de nuestros buques, garantizando su rendimiento en cada misión.",
   },
   {
     image: rev3,
-    name: "Fernando L.",
-    role: "Propietario de Café El Rincón",
+    name: "Club social Miraflores",
+    role: "",
     feedback:
-      "El mantenimiento preventivo que ofrecen ha sido clave para evitar averías costosas. Ahora mis máquinas están siempre en óptimas condiciones.",
+      "En Argomec nos apoyamos para mantener siempre el sabor de nuestro cafés a nuestros clientes.",
   },
   {
-    image: rev3,
-    name: "Lucía M.",
-    role: "Gerente de Espresso & Arte",
+    image: rev4,
+    name: "La Ruta del Cacao",
+    role: "",
     feedback:
-      "Servicio rápido y eficiente. Se tomaron el tiempo de explicarme cómo cuidar mejor mi cafetera para que dure más tiempo. ¡Un equipo muy profesional!",
+      "Servicio rápido, justo y asequible. Recomiendo ampliamente a ARGOMEC para sus servicios de mantenimiento.",
   },
-  {
-    image: rev3,
-    name: "Ricardo P.",
-    role: "Barista en Central Coffee",
-    feedback:
-      "Nunca había recibido un servicio técnico tan detallado. No solo arreglaron mi máquina, sino que optimizaron la presión del agua y la temperatura. ¡Ahora mi café sabe mejor que nunca!",
-  },
-  {
-    image: rev3,
-    name: "Elena T.",
-    role: "Emprendedora de café a domicilio",
-    feedback:
-      "Mi cafetera casera dejó de funcionar y necesitaba una solución urgente. Me la repararon en el mismo día y ahora puedo seguir con mi negocio sin interrupciones. ¡Los recomiendo totalmente!",
-  },
+
 ];
 
 const TestimonialsCarousel = () => {
